@@ -5,10 +5,11 @@ body{
 header{
     display: flex;
     flex-flow: column wrap;
-    background-color: blue;
+    background-color: white;
+    color: blueviolet;
     align-content: center;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .mainContainer{
     background-color:#f7f7f7;
@@ -54,10 +55,10 @@ input{
         justify-content: center;
         padding: 5px;
         border: 1px solid gray;
-        background-color:blue;
+        background-color:grey;
 }
 .button:hover{
-    background-color:grey;
+    background-color:blue;
     color:black;
 }
 .text-error{

@@ -5,33 +5,43 @@
         <meta name = "viewport" content="width=device-width, intial-scale=1.0">  
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/SignUpPage.css" type="text/css">
+        <script  defer src="../js/SignUpPage.js"></script>
         <title>SignUpPage</title>
         </head>
         <body>
             <header>Registration Form</header>
             <div class="mainContainer">
                 <form class="form" action="">
+                    
                     <div>
                         <label class="label text" for="name"></label>
                         <input class="input" type="text" id="name" name="name" placeholder="FirstName" required>
                         <input class="input" type="text" id="name" name="name" placeholder="LastName" required>
-                        <error-output class="text-error" for="text"></error-output>
+                        
                     </div>
                     <div>
                         <label class="label text" for="name"></label>
-                        <input class="input" type="text" id="name" name="name" placeholder="PhoneNumber" required>                        
-                        <error-output class="text-error" for="text"></error-output>
+                        <input class="input" type="text" id="PhoneNumber" name="name" placeholder="PhoneNumber" required>                        
+                        
                     </div>
                     <div>
                         <label class="label text" for="name"></label>
-                        <input class="input" type="text" id="name" name="name" placeholder="Email-Id" required>                        
+                        <input class="input" type="text" id="emailid" name="name" placeholder="Email-Id" required>                        
+                       
+                    </div>
+                    <div>
+                        <label class="label text" for="name"></label>
+                        <input class="input" type="text" id="Password" name="name" placeholder="Password" required>                        
+                        
+                    </div>
+                    <div>
                         <error-output class="text-error" for="text"></error-output>
                     </div>
                     <div>            
                         <button class="button" id="button" type="button" >submit</button>                        
                     </div>
                 </form>
-                </div>
+            </div>
                 </body>
                 </html>
 
