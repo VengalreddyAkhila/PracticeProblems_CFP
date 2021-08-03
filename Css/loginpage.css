@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+.logo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    width: 80%;
+}
+.mainContainer{
+    background-color:#f7f7f7;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    margin-bottom: 10px;
+}
+.form div{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+label, input,.button,.Createbutton, .text-error{
+    font-size: 16px;
+    line-height: 2;
+}
+
+label{
+    text-transform: capitalize;
+    text-align: right;
+    margin-right: 2%;
+    width: 30%;
+    padding: 5px;
+}
+
+input{
+    flex: auto;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    }
+.button{
+        margin: 0 auto;
+        width: 30%;
+        text-transform: capitalize;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        border: 1px solid gray;
+        background-color:blue;
+}
+.Createbutton{
+    margin: 0 auto;
+    width: 30%;
+    text-transform: capitalize;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color:green;
+}
+.button:hover{
+    background-color:grey;
+    color:black;
+}
